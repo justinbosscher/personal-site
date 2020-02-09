@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<!-- This is my simpler personal website in a series that ranges from simplest to more complex.
-    It has a black background, white text, and bit.ly links to my LinkedIn, Kaggle, and GitHub 
-    pages, as well as two different text animations on the same line. -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd"> 
 <head>
-    <title>Simpler Personal Website</title>
+    <title>Justin Bosscher</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Iconify icons for social media links -->
+    <script src="https://code.iconify.design/1/1.0.2/iconify.min.js"></script>
 </head>
     <body>
         <div class="intro_box">
@@ -12,21 +12,27 @@
             </br>
             </br>
                 <div class="sentence">I am
+                    <!-- articles for sliding text -->
                     <div class="fadeIn">
                         <span>a</span>
                         <span>an</span>
                         <span>a</span>
                         <span>an</span>
-                        <span>a</span>
+                        <span>an</span>
+                        <span>an</span>
                     </div>
+                    <!-- sliding text -->
                     <div class="slidingVertical">
                         <span>data scientist</span>
                         <span>economist</span>
-                        <span>cyclist</span>
+                        <span>bicycle mechanic</span>
                         <span>animal lover</span>
-                        <span>human</span>
+                        <span>INTJedi</span>
+                        <span>epistemologist</span>
                     </div>
+                    <!-- period position based on sliding text length -->
                     <div class="fadeIn-period">
+                        <span>.</span>
                         <span>.</span>
                         <span>.</span>
                         <span>.</span>
@@ -37,14 +43,17 @@
             </div>
         <div class="contact_link_box"> 
             <!-- Parameter target="_blank" opens the link on a new tab. -->
-            <div><a href="http://bit.ly/linkedin-justin" target="_blank">LinkedIn</a></div>
+            <div><a href="http://bit.ly/linkedin-justin" target="_blank">
+            <span class="iconify" "small" data-icon="brandico:linkedin-rect" data-inline="false"></span></a></div>
             </br>
-            <div><a href="http://bit.ly/github-bosscher" target="_blank">GitHub</a></div>
+            <div><a href="http://bit.ly/github-bosscher" target="_blank">
+            <span class="iconify" data-icon="ant-design:github-fill" data-inline="false"></span></a></div>
             </br>
-            <div><a href="http://bit.ly/kaggle-bosscher" target="_blank">Kaggle</a></div>
+            <div><a href="http://bit.ly/kaggle-bosscher" target="_blank">
+            <span class="iconify icon:simple-icons:kaggle icon-inline:false"></span></a></div>
         </div>
     </body>
 <footer = class="footer">Copyright Justin Bosscher. 2019.</footer>
 </html>
 
-
+<span class="iconify icon:simple-icons:kaggle icon-inline:false"></span>

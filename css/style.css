@@ -99,7 +99,7 @@ a:visited {
 	animation-delay: 12s;
 }
 .slidingVertical span:nth-child(6){
-	text-indent: 1em;
+	text-indent: 1.45em;
 	animation-delay: 15s;
 }
 /*topToBottom Animation*/
@@ -176,7 +176,7 @@ a:visited {
 }
 .fadeIn-period span:nth-child(6){
 	animation-delay: 15s;
-	text-indent: 5.9em;
+	text-indent: 7.5em;
 	/* -webkit-text-indent: 3.8em; */
 }
 /*FadeIn Animation*/
